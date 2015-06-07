@@ -2,11 +2,12 @@
 /**
  * @file
  *
- * Migrates content from amazeelabs.com from an early alpha to beta9.
+ * Migrates content from amazeelabs.com from alpha11 to beta9.
  *
- * The alpha was from April 2014, beta9 was released March 2015.
+ * Alpha9 was released April 2014, beta9 was released March 2015.
  *
- * Instead of migrating configuration, the site was rebuilt manually on beta9.
+ * Instead of migrating configuration, the site was rebuilt manually
+ * and content was migrated using this script.
  *
  * The data is taken from "old" database and copied to "default" database.
  * Before run, ensure that $databases['old']['default'] is set in the
@@ -17,7 +18,7 @@
  * data will be partially deleted.
  *
  * To run migration:
-drush8 scr migrate_alpha_beta9.php
+drush8 scr migrate_alpha11_beta9.php
  *
  * Example on how to update files (run from Drupal root):
 rsync -e ssh  -akzv --exclude=/files --exclude=/css --exclude=/js --exclude=/php --exclude=/styles --exclude=/config_* --exclude=/file --stats --progress -d -v user@server:/drupalpath/sites/default/files/ sites/default/files/

@@ -2,20 +2,20 @@
 /**
  * @file
  *
- * @todo Which version / date are we migrating from?
+ * Migrates the drupal.com website from beta1 to beta11.
  *
- * (On the moment of writing this, the old installation is "tags/2015-05-06(2)",
- * the new installation is beta11.)
+ * Instead of migrating configuration, the site was rebuilt manually
+ * and content was migrated using this script.
  *
  * The data is taken from "old" database and copied to "default" database.
  * Before run, ensure that $databases['old']['default'] is set in the
  * settings.php.
  *
  * WARNING: All tables that are affected by the script are truncated at the
- * beginning. Be sure to not lost the data. Use "drush sql-dump" before run.
+ * beginning. Be sure to not loose the data. Use "drush sql-dump" before run.
  *
  * Run from drupal root:
- * drush scr modules/beta11_migration/migrate.php
+ * drush scr migrate_beta1_beta11.php
  */
 Beta11Migration::run();
 return;

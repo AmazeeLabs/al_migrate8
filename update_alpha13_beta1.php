@@ -3,10 +3,8 @@
 /**
  * @file
  *
- * @todo I suppose this is about updating from alpha to beta. Can we add details?
+ * Updates the Drupal.com site from Alpha13 to Beta1.
  */
-
-die('Not to be used anymore.');
 
 use Drupal\Core\DrupalKernel;
 use Drupal\Core\Site\Settings;
