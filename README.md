@@ -13,4 +13,4 @@ Don't expect drop-in solutions but finding ideas for implementing your own solut
 
 CAUTION: This may break your site and should only be used with understanding of technical implications! Don't forget to backup before you try :)
 
-Want to help or looking for help? You can [support Migrate in Core](https://groups.drupal.org/node/422253) and [contact us](http://www.amazeelabs.com/en/contact) if have interesting projects in that area.
+Want to help or looking for help? You can [support Migrate in Core](https://groups.drupal.org/node/422253) or [contact us](http://www.amazeelabs.com/en/contact) if you have challenging projects in that area.
