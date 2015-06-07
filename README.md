@@ -5,11 +5,11 @@ This is a collection of scripts we have used to migrate Drupal 8 production webs
 
 Don't expect drop-in solutions but finding ideas for implementing your own solution. Since beta9, you can use [HEAD 2 HEAD](https://www.drupal.org/project/head2head) for updating your Drupal 8 sites. Before that it is usually a process of fiddling around with the database configuration or as we prefer: re-building the site and migrating.
 
-Here are the scripts:
+## Scripts
 
-* [Migration from April 2014 Alpha to Beta 9](migrate_alpha_beta9.php)
-* [Migration from Fall 2014 Beta to Beta 11](migrate_alpha_beta11.php)
-* [Update Script from Alpha to Beta 1](update_alpha_beta1.php)
+* [Migration from Beta1 to Beta 11 (drupal.com)](migrate_beta1_beta11.php)
+* [Migration from Alpha11 to Beta 9 (amazeelabs.com)](migrate_alpha11_beta9.php)
+* [Update from Alpha13 to Beta 1 (drupal.com)](update_alpha13_beta1.php)
 
 CAUTION: This may break your site and should only be used with understanding of technical implications! Don't forget to backup before you try :)
 
